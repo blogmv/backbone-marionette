@@ -1,5 +1,6 @@
 .DS_Store
 
+static/js/
 assets/vendor/
 node_modules
 npm-debug.log
