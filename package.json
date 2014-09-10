@@ -6,7 +6,7 @@
     "url": "https://github.com/blogmv/backbone-marionette"
   },
   "scripts": {
-    "build": "./node_modules/browserify/bin/cmd.js assets/js/main.js -o assets/js/build.js --debug"
+    "build": "./node_modules/browserify/bin/cmd.js assets/js/main.js -o static/js/build.js"
   },
   "keywords": [
     "backbone",

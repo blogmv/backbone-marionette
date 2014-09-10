@@ -33,7 +33,7 @@ var IndexController = require('./controllers/IndexController');
 BlogMV.addInitializer(function () {
   var controller = new IndexController;
 
-  controller.router = new Router({
+  new Router({
     controller: controller
   });
 });
@@ -44,7 +44,8 @@ BlogMV.addInitializer(function () {
  */
 BlogMV.on('start', function () {
   Backbone.history.start({
-    pushState: true
+    pushState: true,
+    root: '/'
   });
 });
 
